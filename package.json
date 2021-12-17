@@ -6,9 +6,9 @@
     "node": ">=6"
   },
   "scripts": {
-    "test": "mocha test/*.spec.js --exit",
-    "lint": "eslint .",
-    "start": "node ."
+    "start": "node .",
+    "test": "mocha test/**/*.spec.js --exit",
+    "submit": "mocha test/submission.spec.js"
   },
   "dependencies": {
     "compression": "^1.0.3",
