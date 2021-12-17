@@ -1,4 +1,13 @@
+require('dotenv').config();
+
 module.exports = {
+  "MongoDB": {
+      "name": "MongoDB",
+      "connector": "mongodb",
+      "url": process.env.MONGODB_URI
+  }
+}
+/*module.exports = {
   "db": {
     "name": "db",
     "connector": "memory"
@@ -14,4 +23,4 @@ module.exports = {
     "useNewUrlParser": true,
     "connector": "mongodb"
   }
-}
+}*/
