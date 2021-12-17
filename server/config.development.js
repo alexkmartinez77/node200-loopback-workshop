@@ -1,12 +1,4 @@
-'use strict';
-
-module.exports =                 {
-  'restApiRoot': '/api',
-  'host': process.env.HOST,
-  'port': process.env.PORT,
-};
-
-/*module.exports = {
+module.exports = {
   "restApiRoot": "/api",
   "host": "0.0.0.0",
   "port": 3000,
@@ -27,4 +19,4 @@ module.exports =                 {
     },
     "cors": false
   }
-}*/
+}
