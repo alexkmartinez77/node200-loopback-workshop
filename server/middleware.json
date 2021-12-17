@@ -28,10 +28,7 @@
         "credentials": true,
         "maxAge": 86400
       }
-    },
-    "morgan": {
-      "params": ["dev", { "buffer": true } ]
-  }
+    }
   },
   "session": {},
   "auth": {},
